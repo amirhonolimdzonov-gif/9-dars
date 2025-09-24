@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Mulish";
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    
+    
+}
+.info__title{
+    text-align: center;
+    padding: 75px 0 ;
+    font-size: 32px;
+}
+
+.info__heading{
+    font-size: 28px;
+    padding-top: 75;
+}
+.info__textbox{
+    width: 400px;
+    padding: 0 0 0 60px;
+}
+.info__wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    display: flex;
+
+}
+.info__text{
+    font-size: 12px;
+    color: #7D7987;
+    margin-top: 63px;
+    margin-bottom: 42px;
+}
+.info__btn{
+    padding: 10px 25px ;
+    background-color: transparent;
+    border: 2px solid #458FF6;
+    border-radius: 55px;
+    color: #458FF6;
+}
+
+  .card {
+      width: 320px;
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h4 {
+      font-size: 18px;
+      margin-bottom: 12px;
+      color: #1d1d1f;
+    }
+
+    .card-content p {
+      font-size: 14px;
+      color: #6c6c70;
+      margin-bottom: 16px;
+    }
+
+    .card-content a {
+      color: #2f80ed;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .card-content a::after {
+      content: ' →';
+    }
+    .flexbox{
+        display: flex;
+        gap: 15px;
+    }
+    .btn{
+        padding: 10px 25px ;
+    background-color: transparent;
+    border: 2px solid #458FF6;
+    border-radius: 55px;
+    color: #458FF6;
+   
+    }
+    .btn1{
+     display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    }
+    .li1{
+        font-size: 15px;
+        font-weight: 700;
+        color: white;
+    }
+    footer{
+        background-color: #2f80ed;
+        padding: 100px 0 ;
+    }
+    .footer1{
+        display: flex;
+        gap: 50px;
+       
+    }
+    .ul1{
+        display: flex;
+        gap: 10px;
+         flex-direction: column;
+         color: white;
+    }
+    .f1{
+        width: 400px;
+    }
+    .ul2{
+        display: flex;
+        gap: 50px;
+    }
